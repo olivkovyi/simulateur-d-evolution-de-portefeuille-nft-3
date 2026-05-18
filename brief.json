@@ -1,0 +1,302 @@
+{
+  "run_id": "run-1779072610958",
+  "job_index": 3,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 3,
+    "archetype": "calculator",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Anticipez l'avenir de vos actifs numériques. Visualisez et projetez la valeur de vos NFTs avec des données pr…",
+    "notes": "Estimez la performance potentielle de vos collections de NFTs en fonction des tendances du marché, de la rareté et des métriques de vente historiques.\nDestiné aux collectionneurs et investisseurs en NFT. Le thème 'Signal Noir' évoque la technicité et la profondeur des analyses de données dans un marché émergent.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "forum-de-jeu.shop",
+    "network_hosting_pool": "4vps:netoper | server_id=447345 | ip=5.253.59.18 | ssh_user=root | ssh_port=22",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "mixed batch",
+    "archetype_mix": [
+      "generator",
+      "tool",
+      "calculator"
+    ],
+    "forced_design_theme": "signal-noir",
+    "forced_structure_preset": "metric-grid",
+    "site_idea_title": "Simulateur d'Évolution de Portefeuille NFT",
+    "site_idea_summary": "Estimez la performance potentielle de vos collections de NFTs en fonction des tendances du marché, de la rareté et des métriques de vente historiques."
+  },
+  "site_spec": {
+    "slug": "simulateur-d-evolution-de-portefeuille-nft-3",
+    "theme": {
+      "name": "Signal Noir",
+      "slug": "signal-noir",
+      "eyebrow": "Performance Pipeline",
+      "family": "performance-dark",
+      "moods": [
+        "performance",
+        "technical",
+        "premium",
+        "dark"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator",
+        "generator"
+      ],
+      "niches": [
+        "analytics",
+        "insurance",
+        "finance",
+        "developer",
+        "qa"
+      ],
+      "keywords": [
+        "efficiency",
+        "dashboard",
+        "metrics",
+        "conversion"
+      ],
+      "token_index": [
+        "analytics",
+        "calculator",
+        "conversion",
+        "dark",
+        "dashboard",
+        "developer",
+        "efficiency",
+        "finance",
+        "generator",
+        "insurance",
+        "metrics",
+        "noir",
+        "performance",
+        "pipeline",
+        "premium",
+        "signal",
+        "technical",
+        "tool"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap",
+      "display_font": "\"Fraunces\", serif",
+      "body_font": "\"Space Grotesk\", sans-serif",
+      "layout": "split",
+      "card_style": "glass",
+      "button_style": "glow",
+      "decor_style": "grid",
+      "hero_template": "1.08fr 0.92fr",
+      "seo_template": "1.18fr 0.82fr",
+      "feature_columns": 3,
+      "faq_columns": 3,
+      "hero_min_height": "78vh",
+      "panel_radius": "30px",
+      "card_radius": "24px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "18px",
+      "palette": {
+        "bg": "#0c0e11",
+        "surface": "rgba(18, 22, 28, 0.86)",
+        "surface_border": "rgba(255, 255, 255, 0.08)",
+        "text": "#f7f1e8",
+        "muted": "#b0aba2",
+        "accent": "#e0ff4f",
+        "accent_alt": "#2dd4bf",
+        "hero_glow": "rgba(224, 255, 79, 0.18)",
+        "button_text": "#0d1006",
+        "panel_alt": "rgba(255, 255, 255, 0.04)",
+        "shadow": "0 28px 84px rgba(0, 0, 0, 0.34)",
+        "input_fill": "rgba(255, 255, 255, 0.04)"
+      }
+    },
+    "structure": {
+      "name": "Metric Grid",
+      "slug": "metric-grid",
+      "hero_variant": "command",
+      "proof_variant": "metrics",
+      "section_order": [
+        "features",
+        "seo",
+        "proof",
+        "faq"
+      ],
+      "feature_columns": 4,
+      "faq_columns": 2,
+      "family": "data-grid",
+      "moods": [
+        "technical",
+        "precise",
+        "systemic"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator"
+      ],
+      "niches": [
+        "developer tools",
+        "qa",
+        "finance",
+        "analytics"
+      ],
+      "keywords": [
+        "metrics",
+        "grid",
+        "dashboard",
+        "precision"
+      ],
+      "token_index": [
+        "analytics",
+        "calculator",
+        "command",
+        "dashboard",
+        "data",
+        "developer",
+        "faq",
+        "features",
+        "finance",
+        "grid",
+        "metric",
+        "metrics",
+        "precise",
+        "precision",
+        "proof",
+        "seo",
+        "systemic",
+        "technical",
+        "tool",
+        "tools"
+      ]
+    },
+    "render_direction": "atlas-report",
+    "render_direction_name": "Atlas Report",
+    "page_blueprint": "briefing-board",
+    "page_blueprint_name": "Briefing Board",
+    "title": "Simulateur d'Évolution de Portefeuille NFT",
+    "tagline": "Projetez la Valeur de Votre Collection NFT",
+    "description": "Anticipez l",
+    "feature_prefix": "Bloc",
+    "action": "Utiliser l'outil",
+    "cta_primary": "Simuler l'Évolution",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "amount",
+        "label": "Montant de base",
+        "type": "number",
+        "placeholder": "7500",
+        "weight": 1.0
+      },
+      {
+        "id": "duration",
+        "label": "Durée estimée",
+        "type": "number",
+        "placeholder": "12",
+        "weight": 0.42
+      },
+      {
+        "id": "plan",
+        "label": "Niveau de service",
+        "type": "select",
+        "options": [
+          {
+            "label": "Essentiel",
+            "value": 1.0
+          },
+          {
+            "label": "Performance",
+            "value": 1.18
+          },
+          {
+            "label": "Premium",
+            "value": 1.34
+          }
+        ],
+        "weight": 1.0
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Atlas Report",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Résultat recommandé",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Atlas Report",
+      "Simuler l'Évolution",
+      "Résultat recommandé",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Résultat recommandé",
+    "result_unit": "EUR",
+    "runtime_mode": "generic_calculator",
+    "page_variant": "console",
+    "faq_topic": "Simulateur d'Évolution de Portefeuille NFT",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour Simulateur d'Évolution de Portefeuille NFT ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de Simulateur d'Évolution de Portefeuille NFT et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Simulateur d&#x27;Évolution de Portefeuille NFT | Projetez la Valeur de Votre Collection NFT</title>\n    <meta name=\"description\" content=\"Anticipez l\">\n    <style>\n        :root {\n            --dark-bg: #1A1A1A;\n            --dark-card: #282828;\n            --text-light: #E0E0E0;\n            --text-medium: #B0B0B0;\n            --accent-green: #00FFC0;\n            --accent-blue: #00BFFF;\n            --border-color: #444;\n            --font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n            --font-sans: 'Inter', 'Helvetica Neue', Arial, sans-serif;\n        }\n\n        body {\n            font-family: var(--font-sans);\n            background-color: var(--dark-bg);\n            color: var(--text-light);\n            margin: 0;\n            line-height: 1.6;\n            -webkit-font-smoothing: antialiased;\n            -moz-osx-font-smoothing: grayscale;\n        }\n\n        h1, h2, h3 {\n            font-family: var(--font-sans);\n            color: var(--text-light);\n            margin-top: 0;\n            margin-bottom: 0.5em;\n        }\n\n        .container {\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: 20px;\n        }\n\n        header {\n            text-align: center;\n            padding: 80px 20px 40px;\n            background: linear-gradient(180deg, var(--dark-bg) 0%, #101010 100%);\n            border-bottom: 1px solid var(--border-color);\n        }\n\n        header h1 {\n            font-size: 3.5em;\n            font-weight: 700;\n            margin-bottom: 15px;\n            letter-spacing: -0.03em;\n            background: linear-gradient(90deg, var(--accent-green) 0%, var(--accent-blue) 100%);\n            -webkit-background-clip: text;\n            -webkit-text-fill-color: transparent;\n        }\n\n        header p {\n            font-size: 1.3em;\n            color: var(--text-medium);\n            max-width: 800px;\n            margin: 0 auto;\n            line-height: 1.5;\n        }\n\n        .tool-section {\n            background-color: var(--dark-card);\n            border-radius: 12px;\n            padding: 40px;\n            margin-top: 40px;\n            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);\n            border: 1px solid var(--border-color);\n        }\n\n        .tool-section h2 {\n            font-size: 2em;\n            text-align: center;\n            margin-bottom: 30px;\n            color: var(--accent-green);\n        }\n\n        form {\n            display: grid;\n            gap: 25px;\n        }\n\n        .form-group {\n            display: flex;\n            flex-direction: column;\n        }\n\n        label {\n            font-size: 0.95em;\n            color: var(--text-medium);\n            margin-bottom: 8px;\n            font-weight: 500;\n        }\n\n        input[type=\"number\"],\n        select {\n            padding: 14px 18px;\n            border: 1px solid var(--border-color);\n            border-radius: 8px;\n            background-color: #333;\n            color: var(--text-light);\n            font-size: 1em;\n            width: 100%;\n            box-sizing: border-box;\n            -webkit-appearance: none;\n            -moz-appearance: none;\n            appearance: none;\n        }\n\n        input[type=\"number\"]:focus,\n        select:focus {\n            outline: none;\n            border-color: var(--accent-green);\n            box-shadow: 0 0 0 3px rgba(0, 255, 192, 0.2);\n        }\n\n        select {\n            background-image: url('data:image/svg+xml;utf8,<svg fill=\"%23E0E0E0\" height=\"24\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7 10l5 5 5-5z\"/><path d=\"M0 0h24v24H0z\" fill=\"none\"/></svg>');\n            background-repeat: no-repeat;\n            background-position: right 12px center;\n            padding-right: 40px;\n        }\n\n        button {\n            background-color: var(--accent-blue);\n            color: var(--dark-bg);\n            padding: 16px 25px;\n            border: none;\n            border-radius: 8px;\n            font-size: 1.1em;\n            font-weight: 600;\n            cursor: pointer;\n            transition: background-color 0.3s ease, transform 0.2s ease;\n            margin-top: 20px;\n        }\n\n        button:hover {\n            background-color: var(--accent-green);\n            transform: translateY(-2px);\n        }\n\n        .result-section {\n            margin-top: 40px;\n            background-color: #222;\n            padding: 35px;\n            border-radius: 12px;\n            border: 1px solid var(--border-color);\n            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);\n            min-height: 150px;\n        }\n\n        .result-section h3 {\n            font-size: 1.6em;\n            color: var(--accent-green);\n            margin-bottom: 25px;\n            text-align: center;\n        }\n\n        #tool-result {\n            font-family: var(--font-mono);\n            font-size: 1em;\n            white-space: pre-wrap;\n            word-wrap: break-word;\n            line-height: 1.8;\n            color: var(--text-medium);\n        }\n\n        .result-group {\n            margin-bottom: 20px;\n            padding-bottom: 15px;\n            border-bottom: 1px dashed rgba(255, 255, 255, 0.1);\n        }\n        .result-group:last-child {\n            border-bottom: none;\n            margin-bottom: 0;\n            padding-bottom: 0;\n        }\n\n        .result-group h4 {\n            color: var(--accent-blue);\n            font-size: 1.2em;\n            margin-bottom: 10px;\n            font-weight: 600;\n        }\n\n        .result-group ul {\n            list-style: none;\n            padding: 0;\n            margin: 0;\n        }\n\n        .result-group li {\n            margin-bottom: 8px;\n            padding-left: 15px;\n            position: relative;\n        }\n\n        .result-group li::before {\n            content: '•';\n            color: var(--accent-green);\n            position: absolute;\n            left: 0;\n        }\n\n        .info-cards {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n            gap: 30px;\n            margin-top: 60px;\n        }\n\n        .card {\n            background-color: var(--dark-card);\n            border-radius: 12px;\n            padding: 30px;\n            border: 1px solid var(--border-color);\n            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);\n            transition: transform 0.3s ease, box-shadow 0.3s ease;\n        }\n\n        .card:hover {\n            transform: translateY(-5px);\n            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);\n        }\n\n        .card h3 {\n            font-size: 1.5em;\n            color: var(--accent-green);\n            margin-bottom: 15px;\n        }\n\n        .card p {\n            color: var(--text-medium);\n            font-size: 1em;\n        }\n\n        .seo-section {\n            background-color: #121212;\n            padding: 60px 20px;\n            margin-top: 80px;\n            border-top: 1px solid var(--border-color);\n            text-align: center;\n        }\n\n        .seo-section h2 {\n            font-size: 2.2em;\n            color: var(--accent-blue);\n            margin-bottom: 30px;\n        }\n\n        .seo-section p {\n            color: var(--text-medium);\n            max-width: 900px;\n            margin: 0 auto 20px;\n            line-height: 1.7;\n            font-size: 0.95em;\n            text-align: left;\n        }\n\n        .seo-section a {\n            color: var(--accent-green);\n            text-decoration: none;\n            transition: color 0.3s ease;\n        }\n\n        .seo-section a:hover {\n            color: var(--accent-blue);\n            text-decoration: underline;\n        }\n\n        footer {\n            text-align: center;\n            padding: 40px 20px;\n            margin-top: 50px;\n            border-top: 1px solid var(--border-color);\n            color: var(--text-medium);\n            font-size: 0.9em;\n        }\n\n        @media (max-width: 768px) {\n            header h1 {\n                font-size: 2.5em;\n            }\n            header p {\n                font-size: 1.1em;\n            }\n            .tool-section {\n                padding: 30px;\n            }\n            .info-cards {\n                grid-template-columns: 1fr;\n            }\n            button {\n                width: 100%;\n            }\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://simulateur-d-evolution-de-portefeuille-nft-3.onrender.com\">\n    <meta property=\"og:title\" content=\"Simulateur d&#x27;Évolution de Portefeuille NFT\">\n    <meta property=\"og:description\" content=\"Anticipez l\">\n    <meta property=\"og:url\" content=\"https://simulateur-d-evolution-de-portefeuille-nft-3.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Simulateur d'Évolution de Portefeuille NFT\", \"description\": \"Anticipez l\", \"url\": \"https://simulateur-d-evolution-de-portefeuille-nft-3.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"simulateur-d-evolution-de-portefeuille-nft-3\" data-runtime-mode=\"generic_calculator\">\n    <header>\n        <div class=\"container\">\n            <h1>Simulateur d'Évolution de Portefeuille NFT</h1>\n            <p>Anticipez l'avenir de vos actifs numériques. Visualisez et projetez la valeur de vos NFTs avec des données précises, en tenant compte des tendances du marché, de la rareté et des métriques de vente historiques.</p>\n        </div>\n    </header>\n\n    <main class=\"container\">\n        <section class=\"tool-section\">\n            <h2>Projetez la Valeur de Votre Collection NFT</h2>\n            <form id=\"tool-form\">\n                <div class=\"form-group\">\n                    <label for=\"initialValue\">Valeur d'achat initiale (€)</label>\n                    <input type=\"number\" id=\"initialValue\" name=\"initialValue\" value=\"1000\" min=\"0\" step=\"1\" required>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"growthRate\">Taux de croissance annuel (%)</label>\n                    <input type=\"number\" id=\"growthRate\" name=\"growthRate\" value=\"15\" min=\"-50\" max=\"200\" step=\"0.5\" required>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"timeHorizon\">Horizon de temps (années)</label>\n                    <input type=\"number\" id=\"timeHorizon\" name=\"timeHorizon\" value=\"3\" min=\"1\" max=\"10\" step=\"1\" required>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"rarityFactor\">Facteur de rareté de votre NFT (1 = moyen, 2 = rare, 3 = très rare)</label>\n                    <select id=\"rarityFactor\" name=\"rarityFactor\">\n                        <option value=\"1\">1 - Commun</option>\n                        <option value=\"1.5\">1.5 - Peu commun</option>\n                        <option value=\"2\">2 - Rare</option>\n                        <option value=\"2.5\">2.5 - Très rare</option>\n                        <option value=\"3\">3 - Légendaire</option>\n                    </select>\n                </div>\n                <button type=\"submit\" id=\"tool-submit\" data-affiliate-slot=\"nft-simulator-cta\">Simuler l'Évolution</button>\n            </form>\n\n            <div class=\"result-section\">\n                <h3>Résultats de la Simulation</h3>\n                <pre id=\"tool-result\">Entrez vos paramètres ci-dessus pour projeter la valeur future de votre portefeuille NFT.</pre>\n            </div>\n        </section>\n\n        <section class=\"info-cards\">\n            <div class=\"card\">\n                <h3>Analyse Approfondie</h3>\n                <p>Notre simulateur prend en compte des variables clés du marché pour vous offrir une projection réaliste. Comprenez l'impact de la rareté et des tendances sur vos actifs.</p>\n            </div>\n            <div class=\"card\">\n                <h3>Visualisation Claire</h3>\n                <p>Obtenez une estimation de la valeur future de votre collection année par année. Des données structurées pour une prise de décision éclairée.</p>\n            </div>\n            <div class=\"card\">\n                <h3>Optimisation Stratégique</h3>\n                <p>Idéal pour les collectionneurs et investisseurs souhaitant optimiser leurs stratégies d'acquisition et de vente dans l'écosystème NFT.</p>\n            </div>\n        </section>\n    </main>\n\n    <section class=\"seo-section\">\n        <div class=\"container\">\n            <h2>Comprendre l'Investissement NFT en France</h2>\n            <p>Le marché des Non-Fungible Tokens (NFTs) connaît une croissance exponentielle, attirant un nombre croissant d'investisseurs et de collectionneurs en France. Que vous soyez un passionné d'art numérique, un gamer cherchant des actifs in-game, ou un investisseur à la recherche de nouvelles opportunités, comprendre la dynamique de ce marché est crucial.</p>\n            <p>Notre simulateur d'évolution de portefeuille NFT est conçu pour vous aider à <a href=\"#tool-form\">estimer la valeur future de vos NFTs</a>. En intégrant des facteurs comme la valeur d'achat, le taux de croissance annuel projeté, l'horizon temporel et le facteur de rareté, il offre une perspective précieuse sur le potentiel de vos actifs numériques.</p>\n            <p>Pour les collectionneurs français, naviguer dans l'univers des NFTs peut être complexe. Des plateformes comme OpenSea, Rarible ou LooksRare sont devenues des lieux d'échange privilégiés. Des artistes émergents aux collections établies comme CryptoPunks ou Bored Ape Yacht Club, chaque actif a ses spécificités. Utiliser un <a href=\"#tool-form\">outil de projection NFT</a> comme le nôtre permet d'anticiper les rendements potentiels et de mieux planifier vos investissements.</p>\n            <p>Que vous cherchiez à évaluer la performance de vos \"art blocks\", de vos \"game assets\" ou de tout autre type de jeton non fongible, une analyse basée sur des données est essentielle. Notre objectif est de vous fournir les outils nécessaires pour prendre des décisions éclairées et sécuriser votre <a href=\"#tool-form\">investissement dans les NFTs</a> sur le long terme.</p>\n        </div>\n    </section>\n\n    <footer>\n        <div class=\"container\">\n            © 2023 Signal Noir. Tous droits réservés.\n        </div>\n    </footer>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(event) {\n            event.preventDefault();\n\n            const initialValue = parseFloat(document.getElementById('initialValue').value);\n            const growthRate = parseFloat(document.getElementById('growthRate').value) / 100;\n            const timeHorizon = parseInt(document.getElementById('timeHorizon').value);\n            const rarityFactor = parseFloat(document.getElementById('rarityFactor').value);\n\n            let resultHTML = '';\n            let currentValue = initialValue;\n\n            resultHTML += '<div class=\"result-group\">';\n            resultHTML += `<h4>Projection Annuelle Détaillée</h4>`;\n            resultHTML += `<ul>`;\n            resultHTML += `<li><strong>Année 0 (Actuelle) :</strong> ${initialValue.toLocaleString('fr-FR', { style: 'currency', currency: 'EUR' })}</li>`;\n\n            for (let i = 1; i <= timeHorizon; i++) {\n                currentValue = currentValue * (1 + growthRate);\n                // Apply rarity factor impact, diminishing over time as market matures for \"rarity\"\n                // Simple model: rarity factor applies less in later years\n                const effectiveRarityFactor = 1 + ((rarityFactor - 1) * Math.pow(0.8, i - 1)); // Diminishing effect\n                currentValue = currentValue * effectiveRarityFactor;\n                resultHTML += `<li><strong>Année ${i} :</strong> ${currentValue.toLocaleString('fr-FR', { style: 'currency', currency: 'EUR' })}</li>`;\n            }\n            resultHTML += `</ul>`;\n            resultHTML += '</div>';\n\n            resultHTML += '<div class=\"result-group\">';\n            resultHTML += `<h4>Synthèse de la Projection</h4>`;\n            resultHTML += `<ul>`;\n            resultHTML += `<li><strong>Valeur Initiale :</strong> ${initialValue.toLocaleString('fr-FR', { style: 'currency', currency: 'EUR' })}</li>`;\n            resultHTML += `<li><strong>Valeur Projetée après ${timeHorizon} ans :</strong> ${currentValue.toLocaleString('fr-FR', { style: 'currency', currency: 'EUR' })}</li>`;\n            const totalGrowth = currentValue - initialValue;\n            const percentageGrowth = (totalGrowth / initialValue) * 100;\n            resultHTML += `<li><strong>Croissance Totale :</strong> ${totalGrowth.toLocaleString('fr-FR', { style: 'currency', currency: 'EUR' })} (${percentageGrowth.toFixed(2)}%)</li>`;\n            resultHTML += `</ul>`;\n            resultHTML += '</div>';\n\n            document.getElementById('tool-result').innerHTML = resultHTML;\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
